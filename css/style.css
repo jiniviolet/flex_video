@@ -1,0 +1,19 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@100&family=Poiret+One&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+ul, ol, li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*구글웹폰트*/
+
+/*# sourceMappingURL=style.css.map */
