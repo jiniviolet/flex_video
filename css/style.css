@@ -14,6 +14,10 @@ a {
   text-decoration: none;
 }
 
+body {
+  background: #333;
+}
+
 /*구글웹폰트*/
 
 /*# sourceMappingURL=style.css.map */
