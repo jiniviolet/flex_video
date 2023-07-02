@@ -18,7 +18,7 @@ main {
         align-content: space-between;
         
         h1 {
-            color: #d3d5cf;
+            color: #fff;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
@@ -30,7 +30,8 @@ main {
             span {
                 width: 100%;
                 text-align: center;
-                font: normal 1.3vw/1 "bold";
+                font: normal 1.3vw/1 "arial";
+                color: #b7b4b4
             }
         }
 
@@ -39,8 +40,6 @@ main {
             color: #888;
             text-align: center;
         }
-
-
     }
     section {
         width: 80%;
@@ -52,6 +51,7 @@ main {
             flex: 1;
             transition: 0.5s;
             position: relative;
+            
 
             &::before {
                 content: "";
@@ -81,8 +81,8 @@ main {
                     transition: 1s;
 
                     h2 {
-                        font: nomal 2vw/1 "alegreya sans sc";
-                        color: lightcyan;
+                        font: normal 2vw/1 "Alegreya sans SC";
+                        color: #fff;
                         margin-bottom: 40px;
                         transition: 1s;
 
@@ -102,6 +102,7 @@ main {
                         color: #777;
                     }
                 }
+ 
 
                 figure {
                     width: 100%;
@@ -110,8 +111,9 @@ main {
                     position: relative;
                     transition: 0.5s;
                     top: 0px;
-                    box-shadow: 10px 10px 15px lightcyan;
+                    box-shadow: 10px 10px 10px rgba(135, 134, 134, 0.636);
                     filter: saturate(0.2);
+
 
                     video {
                         width: 100%;
@@ -138,14 +140,14 @@ main {
 
                             &::after {
                                 width: 120px;
-                                background: orange;
+                                background: violet;
                             }
                         }
                     }
                     figure {
                         height: 20vh;
-                        top: 25px; 
-                        filter: saturate(1.2)   
+                        top: 25px;
+                        filter: saturate(1.4);
                     }
                 }
             }
@@ -155,7 +157,7 @@ main {
         position: absolute;
         top: 4vh;
         right: 5vw;
-
+        
         ul {
             display: flex;
 

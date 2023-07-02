@@ -34,7 +34,7 @@ main header {
   align-content: space-between;
 }
 main header h1 {
-  color: #d3d5cf;
+  color: #fff;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -47,7 +47,8 @@ main header h1 i {
 main header h1 span {
   width: 100%;
   text-align: center;
-  font: normal 1.3vw/1 "bold";
+  font: normal 1.3vw/1 "arial";
+  color: #b7b4b4;
 }
 main header p {
   font: normal 11px/1.2 "arial";
@@ -92,8 +93,8 @@ main section article .inner .txt {
   transition: 1s;
 }
 main section article .inner .txt h2 {
-  font: nomal 2vw/1 "alegreya sans sc";
-  color: lightcyan;
+  font: normal 2vw/1 "Alegreya sans SC";
+  color: #fff;
   margin-bottom: 40px;
   transition: 1s;
 }
@@ -117,7 +118,7 @@ main section article .inner figure {
   position: relative;
   transition: 0.5s;
   top: 0px;
-  box-shadow: 10px 10px 15px lightcyan;
+  box-shadow: 10px 10px 10px rgba(135, 134, 134, 0.636);
   filter: saturate(0.2);
 }
 main section article .inner figure video {
@@ -140,12 +141,12 @@ main section article:hover .inner .txt h2 {
 }
 main section article:hover .inner .txt h2::after {
   width: 120px;
-  background: orange;
+  background: violet;
 }
 main section article:hover .inner figure {
   height: 20vh;
   top: 25px;
-  filter: saturate(1.2);
+  filter: saturate(1.4);
 }
 main nav {
   position: absolute;
